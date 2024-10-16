@@ -99,5 +99,5 @@ input:checked + .slider:before {
 }
 
 label.switch {
-  transform: scale(0.4);
+  transform: scale(0.6);
 }
