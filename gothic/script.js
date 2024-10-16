@@ -1,8 +1,8 @@
 document.getElementById("toggleSwitch").addEventListener("change", function () {
   if (this.checked) {
-    window.location.href = "/index.html"; // Change to your target URL
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your target URL
   } else {
-    window.location.href = "/index.html"; // Change to your default URL
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your default URL
   }
 });
 
