@@ -92,9 +92,12 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
-  transform: scale(0.4);
 }
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+label.switch {
+  transform: scale(0.4);
 }
