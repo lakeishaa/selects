@@ -82,7 +82,8 @@ body {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #0158dd;
+  background-color: #085cdc;
 }
 
 input:checked + .slider:before {
