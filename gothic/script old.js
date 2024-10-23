@@ -1,10 +1,18 @@
+document.getElementById("toggleSwitch").addEventListener("change", function () {
+  if (this.checked) {
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your target URL
+  } else {
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your default URL
+  }
+});
+
 const colors = [
   "#32B5FF", // MIK-C3.mp3
   "#FF3232", // MIK-D3.mp3
   "#0EDC0A", // MIK-E3.mp3
   "#E9ED19", // MIK-FS3.mp3
   "#FF87F3", // MIK-GS3.mp3
-  "#f0573c", // MIK-AS3.mp3
+  "#FF87F3", // MIK-AS3.mp3
 ];
 
 // Map colors to audio files
@@ -14,7 +22,7 @@ const audioFiles = {
   "#0EDC0A": "assets/MIK-E3.mp3",
   "#E9ED19": "assets/MIK-FS3.mp3",
   "#FF87F3": "assets/MIK-AS3.mp3", // Replace with actual paths
-  "#f0573c": "assets/MIK-GS3.mp3", // Ensure unique keys or handle duplicates appropriately
+  // "#FF87F3": "assets/MIK-GS3.mp3", // Ensure unique keys or handle duplicates appropriately
 };
 
 // Store audio objects to preload
@@ -51,7 +59,6 @@ blackCells.forEach((cell) => {
     }
   });
 
-  // Remove the mouseleave behavior that affects audio
   cell.addEventListener("mouseleave", () => {
     cell.classList.add("transition");
     setTimeout(() => {
