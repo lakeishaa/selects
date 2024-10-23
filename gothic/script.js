@@ -1,3 +1,11 @@
+document.getElementById("toggleSwitch").addEventListener("change", function () {
+  if (this.checked) {
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your target URL
+  } else {
+    window.location.href = "https://lakeishaa.github.io/selects/"; // Change to your default URL
+  }
+});
+
 const colors = [
   "#32B5FF", // MIK-C3.mp3
   "#FF3232", // MIK-D3.mp3
