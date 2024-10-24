@@ -12,7 +12,7 @@ const colors = [
   "#0EDC0A", // MIK-E3.mp3
   "#E9ED19", // MIK-FS3.mp3
   "#FF87F3", // MIK-GS3.mp3
-  "#f0573c", // MIK-AS3.mp3
+  "#fa7aed", // MIK-AS3.mp3
 ];
 
 // Map colors to audio files
@@ -22,7 +22,7 @@ const audioFiles = {
   "#0EDC0A": "assets/MIK-E3.mp3",
   "#E9ED19": "assets/MIK-FS3.mp3",
   "#FF87F3": "assets/MIK-AS3.mp3", // Replace with actual paths
-  "#f0573c": "assets/MIK-GS3.mp3", // Ensure unique keys or handle duplicates appropriately
+  "#fa7aed": "assets/MIK-GS3.mp3", // Ensure unique keys or handle duplicates appropriately
 };
 
 // Store audio objects to preload
